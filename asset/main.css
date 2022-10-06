@@ -1,0 +1,108 @@
+.loading {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    position: fixed;
+    background-color: #0d6efd;
+}
+
+.loading .loading-icon {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.divider {
+    height: 2rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.content .content-title {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.content .content-subtitle {
+    color: #495057;
+    font-weight: bold;
+}
+
+.content .content-title, 
+.content .content-subtitle {
+    text-align: center;
+}
+
+.content-divider {
+    height: 0.3rem;
+    background-color: #0d6efd;
+    width: 15%;
+    border: 0px;
+    border-radius: 50px 50px 50px 50px;
+    margin: auto;
+}
+
+.content-carousel-wrapper {
+    margin: 0 0 1rem 1rem;
+}
+
+.card-carousel {
+    margin: 0 1rem;
+}
+
+.card-carousel img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    margin-left: -50px;
+    background-color: #0d6efd;
+    height: 40px;
+    width: 40px;
+    top: 130px;
+    padding: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.carousel-control-next {
+    position: absolute;
+    margin-right: -50px;
+    background-color: #0d6efd;
+    height: 40px;
+    width: 40px;
+    top: 130px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.carousel-control-prev .carousel-control-icon,
+.carousel-control-next .carousel-control-icon {
+    font-size: 15pt;
+}
+
+.card-content {
+    margin: 0 1rem 1rem;
+}
+
+.card-content img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-content a {
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.card-content a:hover {
+    color: #0dcaf0;
+}
