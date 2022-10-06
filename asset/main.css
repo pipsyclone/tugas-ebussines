@@ -106,3 +106,35 @@
 .card-content a:hover {
     color: #0dcaf0;
 }
+
+@media screen and (max-width: 460px) {
+    .carousel-control-prev {
+        position: absolute;
+        margin-left: -10px;
+        background-color: #0d6efd;
+        height: 40px;
+        width: 40px;
+        top: 130px;
+        padding: 0px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .carousel-control-next {
+        position: absolute;
+        margin-right: -10px;
+        background-color: #0d6efd;
+        height: 40px;
+        width: 40px;
+        top: 130px;
+        padding: 5px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .mt-responsif {
+        margin-top: 10px;
+    }
+}
+
+.m-all {
+    margin: 1rem 1rem 1rem 1rem;
+}
