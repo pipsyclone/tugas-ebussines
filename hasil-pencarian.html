@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hasil Pencarian</title>
+
+    <link rel="stylesheet" href="asset/library/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/library/all.min.css">
+    <link rel="stylesheet" href="asset/library/aos.css">
+    <link rel="stylesheet" href="asset/main.css">
+</head>
+<body>
+    <!-- Topbar -->
+    <nav class="navbar navbar-expand-lg bg-info navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark fs-4" href="index.html">
+                <b>SUStore</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark fs-5" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fs-5" href="./kategori.html">Kategori</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-link text-decoration-none text-dark fs-5" onclick="window.location.href='./keranjang.html'">
+                            <i class="fa-solid fa-shopping-cart"></i> <span class="badge rounded-pill text-bg-danger">4</span>
+                        </button>
+                    </li>
+                    <li class="nav-item me-5">
+                        <div class="input-group">
+                            <input type="text" class="form-control fs-5" placeholder="Cari produk...">
+                            <button class="btn btn-primary fs-5" onclick="window.location.href='./hasil-pencarian.html'">
+                                <i class="fa-solid fa-search"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="nav-item mt-responsif">
+                        <a class="btn btn-primary rounded-0 fs-5" href="./auth.html">
+                            Login/Register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product List -->
+    <div class="product">
+        <span class="fs-3 text-white ms-5">Hasil Pencarian Anda : nike</span>
+        <hr>
+        <div class="container-fluid text-center" id="content-wrapper" data-aos="fade-up">
+            <div class="box-product sport">
+                <a href="./view-shoes.html" class="text-decoration-none text-hover">
+                    <img src="asset/img/produk/sepatu2.jpg" class="img-fluid w-100 rounded-top">
+
+                    <div class="box-product-body">
+                        <h5 class="text-limit">Nike Women's Sport Mountain</h5>
+                        <h6>Rp. 300.000</h6>
+                        <small class="float-end mb-2 text-muted">
+                            <i class="fa-solid fa-chart-line"></i> 1.25rb+ Terjual
+                        </small>
+                    </div>
+                </a>
+            </div>
+            <div class="box-product modis">
+                <a href="./view-shoes.html" class="text-decoration-none text-hover">
+                    <img src="asset/img/produk/sepatu3.jpg" class="img-fluid w-100 rounded-top">
+
+                    <div class="box-product-body">
+                        <h5 class="text-limit">Nike Air Jordan I</h5>
+                        <h6>Rp. 450.000</h6>
+                        <small class="float-end mb-2 text-muted">
+                            <i class="fa-solid fa-chart-line"></i> 1rb+ Terjual
+                        </small>
+                    </div>
+                </a>
+            </div>
+            <div class="box-product modis">
+                <a href="./view-shoes.html" class="text-decoration-none text-hover">
+                    <img src="asset/img/produk/sepatu5.jpg" class="img-fluid w-100 rounded-top">
+
+                    <div class="box-product-body">
+                        <h5 class="text-limit">Nike Air Jordan V</h5>
+                        <h6>Rp. 1.500.000</h6>
+                        <small class="float-end mb-2 text-muted">
+                            <i class="fa-solid fa-chart-line"></i> 2.4rb+ Terjual
+                        </small>
+                    </div>
+                </a>
+            </div>
+            <div class="box-product modis">
+                <a href="./view-shoes.html" class="text-decoration-none text-hover">
+                    <img src="asset/img/produk/sepatu6.jpg" class="img-fluid w-100 rounded-top">
+
+                    <div class="box-product-body">
+                        <h5 class="text-limit">Nike Air Jordan IV</h5>
+                        <h6>Rp. 900.000</h6>
+                        <small class="float-end mb-2 text-muted">
+                            <i class="fa-solid fa-chart-line"></i> 1.1rb+ Terjual
+                        </small>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <footer class="p-5">
+        <div class="text-center text-muted">
+            Licensed By SUStore @Copyright 2023
+        </div>
+    </footer>
+</body>
+
+<!-- Script -->
+<script src="asset/library/bootstrap.bundle.min.js"></script>
+<script src="asset/library/all.min.js"></script>
+<script src="asset/library/jquery.min.js"></script>
+<script src="asset/library/aos.js"></script>
+<script src="asset/main.js"></script>
+</html>
