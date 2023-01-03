@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login To Your Account</title>
+
+    <link rel="stylesheet" href="asset/library/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/library/all.min.css">
+    <link rel="stylesheet" href="asset/library/aos.css">
+    <link rel="stylesheet" href="asset/main.css">
+</head>
+<body>
+    <div class="body-auth">
+
+        <!-- Login -->
+        <div class="box-auth" id="box-login">
+            <div class="box-auth-header">
+                <h2>LOGIN</h2>
+            </div>
+            <hr>
+
+            <form action="">
+                <div class="mb-3">
+                    <label class="fw-bold">Username : </label>
+                    <input type="text" name="username" class="form-control mt-2" placeholder="Username">
+                </div>
+                <div class="mb-3">
+                    <label class="fw-bold">Password : </label>
+                    <input type="password" name="password" class="form-control mt-2" placeholder="Password">
+                </div>
+
+                <button type="button" class="btn btn-primary rounded-0 w-100 text-white mb-3" onclick="window.location.href='./index.html'">LOGIN</button>
+
+                <small>Tidak memiliki akun? <span class="text-primary cursor-pointer" id="btn-any-have-account">Register</span></small>
+            </form>
+        </div>
+
+        <!-- Register -->
+        <div class="box-auth d-none" id="box-register">
+            <div class="box-auth-header">
+                <h2>REGISTER</h2>
+            </div>
+            <hr>
+
+            <form action="">
+                <div class="mb-3">
+                    <label class="fw-bold">Nama : </label>
+                    <input type="text" name="nama" class="form-control mt-2" placeholder="Nama">
+                </div>
+                <div class="mb-3">
+                    <label class="fw-bold">Email : </label>
+                    <input type="email" name="email" class="form-control mt-2" placeholder="Email">
+                </div>
+                <div class="mb-3">
+                    <label class="fw-bold">Username : </label>
+                    <input type="text" name="username" class="form-control mt-2" placeholder="Username">
+                </div>
+                <div class="mb-3">
+                    <label class="fw-bold">Password : </label>
+                    <input type="password" name="password" class="form-control mt-2" placeholder="Password">
+                </div>
+
+                <button type="button" class="btn btn-success rounded-0 w-100 mb-3" onclick="window.location.href='./index.html'">Register</button>
+
+                <small>Sudah memiliki akun? <span class="text-primary cursor-pointer" id="btn-have-account">Login</span></small>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="loading">
+        <div class="loading-icon">
+            <span class="spinner-grow spinner-grow-sm"></span>
+            <span class="spinner-grow spinner-grow-sm"></span>
+            <span class="spinner-grow spinner-grow-sm"></span>
+            <span class="spinner-grow spinner-grow-sm"></span>
+            <span class="spinner-grow spinner-grow-sm"></span>
+        </div>
+    </div>
+</body>
+
+<!-- Script -->
+<script src="asset/library/bootstrap.bundle.min.js"></script>
+<script src="asset/library/all.min.js"></script>
+<script src="asset/library/jquery.min.js"></script>
+<script src="asset/library/aos.js"></script>
+<script src="asset/main.js"></script>
+
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Keranjang</title>
+
+    <link rel="stylesheet" href="asset/library/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/library/all.min.css">
+    <link rel="stylesheet" href="asset/library/aos.css">
+    <link rel="stylesheet" href="asset/main.css">
+</head>
+<body>
+    <!-- Topbar -->
+    <nav class="navbar navbar-expand-lg bg-info navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark fs-4" href="index.html">
+                <b>SUStore</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark fs-5" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fs-5" href="./kategori.html">Kategori</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-link text-decoration-none text-dark fs-5" onclick="window.location.href='./keranjang.html'">
+                            <i class="fa-solid fa-shopping-cart"></i> <span class="badge rounded-pill text-bg-danger">4</span>
+                        </button>
+                    </li>
+                    <li class="nav-item me-5">
+                        <div class="input-group">
+                            <input type="text" class="form-control fs-5" placeholder="Cari produk...">
+                            <button class="btn btn-primary fs-5" type="button" id="button-addon2">
+                                <i class="fa-solid fa-search"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="nav-item mt-responsif">
+                        <a class="btn btn-primary rounded-0 fs-5" href="./auth.html">
+                            Login/Register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <div class="keranjang">
+            <div class="container">
+                <div class="text-white fs-5 mb-5">Anda memiliki 4 produk di keranjang anda</div>
+                <table class="table table-borderless text-white">
+                    <tr class="border-bottom">
+                        <td>
+                            <div class="d-flex">
+                                <img src="asset/img/produk/sepatu3.jpg" class="img-fluid" width="150">
+    
+                                <div class="flex-fill ms-3">
+                                    <h2>Nike Air Jordan I</h2>
+                                    Harga   : Rp. 2.250.000
+                                    <br>
+                                    Jumlah  : 5
+                                    <br>
+                                    Ukuran  : 42
+                                    <br>
+                                    Warna   : Retro High Sating Black Toe
+                                </div>
+                            </div>
+                        </td>
+                        <td width="150" align="center">
+                            <button class="btn btn-danger">
+                                <i class="fa-solid fa-trash me-2"></i> Hapus
+                            </button>
+                            <button class="btn btn-success mt-3" onclick="window.location.href='./view-shoes.html'">
+                                <i class="fa-solid fa-plus me-2"></i> Tambah
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>
+                            <div class="d-flex">
+                                <img src="asset/img/produk/sepatu5.jpg" class="img-fluid" width="150">
+    
+                                <div class="flex-fill ms-3">
+                                    <h2>Nike Air Jordan V</h2>
+                                    Harga   : Rp. 1.500.000
+                                    <br>
+                                    Jumlah  : 1
+                                    <br>
+                                    Ukuran  : 42
+                                    <br>
+                                    Warna   : White Retro
+                                </div>
+                            </div>
+                        </td>
+                        <td width="150" align="center">
+                            <button class="btn btn-danger">
+                                <i class="fa-solid fa-trash me-2"></i> Hapus
+                            </button>
+                            <button class="btn btn-success mt-3" onclick="window.location.href='./view-shoes.html'">
+                                <i class="fa-solid fa-plus me-2"></i> Tambah
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>
+                            <div class="d-flex">
+                                <img src="asset/img/produk/sepatu14.jpg" class="img-fluid" width="150">
+    
+                                <div class="flex-fill ms-3">
+                                    <h2>Eagle Sport Badminton</h2>
+                                    Harga   : Rp. 500.000
+                                    <br>
+                                    Jumlah  : 1
+                                    <br>
+                                    Ukuran  : 43
+                                    <br>
+                                    Warna   : Red White
+                                </div>
+                            </div>
+                        </td>
+                        <td width="150" align="center">
+                            <button class="btn btn-danger">
+                                <i class="fa-solid fa-trash me-2"></i> Hapus
+                            </button>
+                            <button class="btn btn-success mt-3" onclick="window.location.href='./view-shoes.html'">
+                                <i class="fa-solid fa-plus me-2"></i> Tambah
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>
+                            <div class="d-flex">
+                                <img src="asset/img/produk/sepatu10.jpg" class="img-fluid" width="150">
+    
+                                <div class="flex-fill ms-3">
+                                    <h2>Convers All Star</h2>
+                                    Harga   : Rp. 199.000
+                                    <br>
+                                    Jumlah  : 1
+                                    <br>
+                                    Ukuran  : 42
+                                    <br>
+                                    Warna   : Black
+                                </div>
+                            </div>
+                        </td>
+                        <td width="150" align="center">
+                            <button class="btn btn-danger">
+                                <i class="fa-solid fa-trash me-2"></i> Hapus
+                            </button>
+                            <button class="btn btn-success mt-3" onclick="window.location.href='./view-shoes.html'">
+                                <i class="fa-solid fa-plus me-2"></i> Tambah
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="border-bottom fs-5">
+                        <td>
+                            <b>Total Harga</b>
+                        </td>
+                        <td width="150">
+                            <b>Rp. 500.000</b>
+                        </td>
+                    </tr>
+                </table>
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <footer class="p-5">
+        <div class="text-center text-muted">
+            Licensed By SUStore @Copyright 2023
+        </div>
+    </footer>
+
+    <div class="loading">
+        <div class="loading-icon">
+            <span class="spinner-grow spinner-grow-sm"></span>
+            <span class="spinner-grow spinner-grow-sm"></span>
+            <span class="spinner-grow spinner-grow-sm"></span>
+            <span class="spinner-grow spinner-grow-sm"></span>
+            <span class="spinner-grow spinner-grow-sm"></span>
+        </div>
+    </div>
+</body>
+
+<!-- Script -->
+<script src="asset/library/bootstrap.bundle.min.js"></script>
+<script src="asset/library/all.min.js"></script>
+<script src="asset/library/jquery.min.js"></script>
+<script src="asset/library/aos.js"></script>
+<script src="asset/main.js"></script>
+
+</html>

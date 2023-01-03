@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>SUStore | Nike Air Jordan I</title>
+    <title>Kategori</title>
 
     <link rel="stylesheet" href="asset/library/bootstrap.min.css">
     <link rel="stylesheet" href="asset/library/all.min.css">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="asset/main.css">
 </head>
 <body>
+
     <!-- Topbar -->
     <nav class="navbar navbar-expand-lg bg-info navbar-dark sticky-top">
         <div class="container-fluid">
@@ -52,114 +53,26 @@
             </div>
         </div>
     </nav>
-
-    <div class="container-fluid">
-        <div class="row container mt-5 mx-auto pt-5 pb-5">
-            <div class="container col-sm-3 mb-3 carousel-view-shoes">
-                <div class="carousel slide" data-bs-ride="false" id="viewShoesCarousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="asset/img/produk/sepatu3.jpg" class="img-fluid" alt="...">
-                            <div class="carousel-caption">
-                                <span>Retro High Sating Black Toe</span>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="asset/img/produk/sepatu3_2.jpg" class="img-fluid" alt="...">
-                            <div class="carousel-caption ">
-                                <span>Shattered Backboard 3.0</span>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="asset/img/produk/sepatu3_3.jpg" class="img-fluid" alt="...">
-                            <div class="carousel-caption ">
-                                <span>Retro High Bred 2</span>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="asset/img/produk/sepatu3_4.jpg" class="img-fluid" alt="...">
-                            <div class="carousel-caption ">
-                                <span>New Love</span>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="asset/img/produk/sepatu3_5.jpg" class="img-fluid" alt="...">
-                            <div class="carousel-caption ">
-                                <span>Grey Smokey</span>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <button class="carousel-control-prev" data-bs-target="#viewShoesCarousel" data-bs-slide="prev">
-                        <i class="fa-solid fa-angle-left carousel-control-icon"></i>
-                    </button>
-        
-                    <button class="carousel-control-next" data-bs-target="#viewShoesCarousel" data-bs-slide="next">
-                        <i class="fa-solid fa-angle-right carousel-control-icon"></i>
-                    </button>
-                </div>
-            </div>
     
-            <div class="container col-sm-5 mb-3">
-                <div class="card align-self-start">
-                    <div class="card-body">
-                        <h3>Nike Air Jordan I</h3>
-                        <div class="d-flex">
-                            <h5>Rp.450.000</h5> 
-                            <span class="ms-auto text-muted">
-                                <i class="fa-solid fa-chart-line"></i> 1rb+ Terjual
-                            </span>
-                        </div>
-        
-                        <hr>
-        
-                        <div>
-                            <span>Kondisi : <b>Baru</b></span>
-                            <br>
-                            <span>Berat Satuan : <b>1 Kg</b></span>
-                            <br>
-                            <span>Stok : <b>1500</b></span>
-                            <br>
-                            <br>
-                            <p>
-                                Selagi stok masih tersedia, anda bisa memesan produk ini.
-                                <br>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem asperiores dignissimos error ullam iusto libero! Ut, quo laborum! Iure culpa sint impedit optio illo animi, voluptatem cupiditate iusto numquam labore, maxime, ipsa id odit! Est nisi accusantium error eos asperiores similique repudiandae architecto consectetur nemo corporis! Eligendi impedit consequuntur provident minus corrupti, ipsam, dolorem earum totam asperiores quam debitis veniam vero nostrum eaque in voluptate eos? Quam ducimus dicta deleniti perferendis incidunt. Quo, fugit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="container col-sm-3">
-                <div class="card align-self-start mb-3">
-                    <div class="card-body">
-                        <h4 class="mb-3">Atur Pesanan Anda</h4>
-    
-                        <span>Stok : <b>1500</b></span>
-                        <input type="number" class="form-control" min="1" value="1" max="999" placeholder="Masukkan Jumlah Produk...">
-    
-                        <div class="mt-5">
-                            <button class="btn btn-outline-primary w-100" onclick="window.location.href='./keranjang.html'">Tambah Keranjang <i class="fa-solid fa-plus ms-3"></i></button>
-                            <button class="btn btn-primary w-100 mt-3" onclick="window.location.href='./checkout.html'">Beli <i class="fa-solid fa-wallet ms-3"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="divider"></div>
-
     <!-- Product List -->
     <div class="product">
-        <div class="container-fluid text-center product-list" id="content-wrapper" data-aos="fade-up">
-            <div class="box-product product-item">
+        <div class="text-center">
+            <span class="text-center fs-2 fw-bold text-white">Silahkan pilih kategori : </span>
+        </div>
+        <select name="" class="form-select text-center w-75 mx-auto" id="select-kategori">
+            <option value="">- Pilih Kategori -</option>
+            <option value="modis">Modis</option>
+            <option value="sport">Sport</option>
+            <option value="school">School</option>
+        </select>
+        <hr>
+        <div class="container-fluid text-center" id="content-wrapper" data-aos="fade-up">
+            <div class="box-product school">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu1.jpg" class="img-fluid w-100 rounded-top">
 
                     <div class="box-product-body">
-                        <h5 class="text-limit">Vans Blue Navy</h5>
+                        <h5 class="text-limit school">Vans Blue Navy</h5>
                         <h6>Rp. 157.000</h6>
                         <small class="float-end mb-2 text-muted">
                             <i class="fa-solid fa-chart-line"></i> 1.4rb+ Terjual
@@ -167,7 +80,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product sport">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu2.jpg" class="img-fluid w-100 rounded-top">
 
@@ -180,7 +93,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product modis">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu3.jpg" class="img-fluid w-100 rounded-top">
 
@@ -193,7 +106,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product sport">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu4.jpg" class="img-fluid w-100 rounded-top">
 
@@ -206,7 +119,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product modis">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu5.jpg" class="img-fluid w-100 rounded-top">
 
@@ -220,12 +133,12 @@
                 </a>
             </div>
 
-            <div class="box-product product-item">
+            <div class="box-product modis">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu6.jpg" class="img-fluid w-100 rounded-top">
 
                     <div class="box-product-body">
-                        <h5 class="text-limit">nike Air Jorder IV</h5>
+                        <h5 class="text-limit">Nike Air Jordan IV</h5>
                         <h6>Rp. 900.000</h6>
                         <small class="float-end mb-2 text-muted">
                             <i class="fa-solid fa-chart-line"></i> 1.1rb+ Terjual
@@ -233,7 +146,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product modis">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu7.jpg" class="img-fluid w-100 rounded-top">
 
@@ -246,7 +159,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product sport">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu8.jpg" class="img-fluid w-100 rounded-top">
 
@@ -259,7 +172,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product modis">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu9.jpg" class="img-fluid w-100 rounded-top">
 
@@ -272,12 +185,12 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product school">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu10.jpg" class="img-fluid w-100 rounded-top">
 
                     <div class="box-product-body">
-                        <h5 class="text-limit">Conver All Star</h5>
+                        <h5 class="text-limit">Convers All Star</h5>
                         <h6>Rp. 199.000</h6>
                         <small class="float-end mb-2 text-muted">
                             <i class="fa-solid fa-chart-line"></i> 2.4rb+ Terjual
@@ -286,12 +199,12 @@
                 </a>
             </div>
 
-            <div class="box-product product-item">
+            <div class="box-product school">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu11.jpg" class="img-fluid w-100 rounded-top">
 
                     <div class="box-product-body">
-                        <h5 class="text-limit">Conver Low Top Bubble</h5>
+                        <h5 class="text-limit">Convers Low Top Bubble</h5>
                         <h6>Rp. 100.000</h6>
                         <small class="float-end mb-2 text-muted">
                             <i class="fa-solid fa-chart-line"></i> 1rb+ Terjual
@@ -299,7 +212,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product modis">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu12.jpg" class="img-fluid w-100 rounded-top">
 
@@ -312,7 +225,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product modis">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu13.jpg" class="img-fluid w-100 rounded-top">
 
@@ -325,7 +238,7 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product sport">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu14.jpg" class="img-fluid w-100 rounded-top">
 
@@ -338,12 +251,12 @@
                     </div>
                 </a>
             </div>
-            <div class="box-product product-item">
+            <div class="box-product modis">
                 <a href="./view-shoes.html" class="text-decoration-none text-hover">
                     <img src="asset/img/produk/sepatu15.jpg" class="img-fluid w-100 rounded-top">
 
                     <div class="box-product-body">
-                        <h5 class="text-limit">Conver Hello Kitty Low Top Bubble</h5>
+                        <h5 class="text-limit">Convers Hello Kitty Low Top Bubble</h5>
                         <h6>Rp. 99.000</h6>
                         <small class="float-end mb-2 text-muted">
                             <i class="fa-solid fa-chart-line"></i> 3.4rb+ Terjual
@@ -351,15 +264,16 @@
                     </div>
                 </a>
             </div>
-
-
-            <div class="mt-5 text-center">
-                <button class="btn btn-dark btn-load-more">
-                    Load More
-                </button>
-            </div>
         </div>
     </div>
+
+    <div class="divider"></div>
+
+    <footer class="p-5">
+        <div class="text-center text-muted">
+            Licensed By SUStore @Copyright 2023
+        </div>
+    </footer>
 
     <div class="loading">
         <div class="loading-icon">
@@ -371,14 +285,8 @@
         </div>
     </div>
 
-    <div class="divider"></div>
-
-    <footer class="p-5">
-        <div class="text-center text-muted">
-            Licensed By SUStore @Copyright 2023
-        </div>
-    </footer>
 </body>
+
 <!-- Script -->
 <script src="asset/library/bootstrap.bundle.min.js"></script>
 <script src="asset/library/all.min.js"></script>
