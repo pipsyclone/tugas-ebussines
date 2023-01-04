@@ -214,6 +214,13 @@
     padding: 20px;
 }
 
+.scroll-item-checkout {
+    max-height: 230px;
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 460px) {
     .box-product-carousel-responsive {
         display: none;
